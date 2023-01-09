@@ -7,8 +7,8 @@ export default function sliderNavbar() {
   <>
 <div className="container-fluid ">
   <div className="row flex-nowrap position-fixed  ">
-    <div className="col-auto  bg-dark">
-      <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+    <div className="col-auto  bg-white">
+      <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 ">
         <Link to='/' className="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
           <span className="fs-5 d-none d-sm-inline  pt-2">
           
@@ -16,44 +16,45 @@ export default function sliderNavbar() {
           </span>
         </Link>
         <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-          <li className="nav-item">
-            <Link to='/'  className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Dashboard</span>
+          <li className="nav-item ">
+            <Link to='/'  className="nav-link align-middle px-0  text-dark fw-bolder">
+              <i class="fa-solid fa-shapes  "></i>
+            <span className="ms-1 d-none d-sm-inline ">Dashboard</span>
             </Link>
           </li>
           <li className="nav-item">
-            <a  className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Assets</span>
+            <a  className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-regular fa-circle-user"></i><span className="ms-1 d-none d-sm-inline">Assets</span>
             </a>
           </li>
           <li className="nav-item">
-            <Link to='booking'  className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Booking</span>
+            <Link to='booking'  className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-car"></i> <span className="ms-1 d-none d-sm-inline">Booking</span>
             </Link>
           </li>
           <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Sell Cars</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-bag-shopping"></i><span className="ms-1 d-none d-sm-inline">Sell Cars</span>
             </a>
           </li>
           <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Buy Cars</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-cart-shopping"></i> <span className="ms-1 d-none d-sm-inline">Buy Cars</span>
             </a>
           </li>
           <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Services</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-bell-concierge"></i><span className="ms-1 d-none d-sm-inline">Services</span>
             </a>
           </li>
           <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Calender</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-regular fa-calendar-days"></i><span className="ms-1 d-none d-sm-inline">Calender</span>
             </a>
           </li>
           <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Messages</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-envelope"></i> <span className="ms-1 d-none d-sm-inline">Messages</span>
             </a>
           </li>
           
@@ -63,14 +64,14 @@ export default function sliderNavbar() {
 
         <ul className='nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start'>
         <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">settings</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-gear"></i><span className="ms-1 d-none d-sm-inline">settings</span>
             </a>
           </li>
           
           <li className="nav-item">
-            <a   className="nav-link align-middle px-0">
-              <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">logout</span>
+            <a   className="nav-link align-middle px-0 text-dark fw-bolder">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i><span className="ms-1 d-none d-sm-inline">logout</span>
             </a>
           </li>
           
